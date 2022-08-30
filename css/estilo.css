@@ -1,5 +1,11 @@
-h1{
-    color: red;
+@font-face
+  {font-family:'coolvetica';
+  src:url('../fonts/coolvetica.otf');}
+
+
+h1,h2,h5{
+    color: rgb(247, 36, 36);
+    font-family: 'coolvetica';
 }
 
 body{
@@ -11,6 +17,8 @@ html{
     width: auto;
     height: auto;
 }
+
+
 
 .box{
     background-color: bisque;
@@ -42,4 +50,58 @@ position: absolute;
     text-align: center;
     border-radius: 10px;
     text-align: center;
+    color: black;
+    font-family: 'coolvetica';
   }
+
+a{
+    text-decoration:none;
+}
+
+
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #dddddd;
+  }
+
+.labeltxt{
+  color: black;
+    font-family: 'coolvetica';
+    font-size: 20px;
+}
+
+.botao{
+  background-color: red;
+  border-radius: 10px;
+  font-family: 'coolvetica';
+  font-size: 15px;
+}
+
+.caixadetexto{
+  font-family: 'coolvetica';
+  font-size: 15px;
+}
+
+.botaoadicionar{
+  font-family: 'coolvetica';
+  font-size: 20px;
+  color: black;
+  background-color: red;
+  border-radius: 10px;
+  padding: 8px;
+}
+
+.espaco{
+  padding: 8px;
+}

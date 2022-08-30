@@ -13,7 +13,7 @@
             <h1>Glossário de Vocabulários</h1>
             <h2>Construa seu vocabulário e seja feliz :)</h2>
             <div class="grid-container">
-                <div class="grid-item">Palavras Comuns</div>
+                <a href="palavras_comuns.php"><div class="grid-item">Palavras Comuns</div></a>
                 <div class="grid-item">Siglas</div>
                 <div class="grid-item">Nomes Próprios</div>  
                 <div class="grid-item">Palavrões</div>
